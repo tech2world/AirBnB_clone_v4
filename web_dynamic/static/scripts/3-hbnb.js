@@ -55,4 +55,7 @@ $(document).ready(function () {
 		},
 		dataType: "json",
 	});
+    // places filter
+    $(".filters button").bind("click", searchPlace);
+	searchPlace();
 });
